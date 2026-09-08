@@ -1,0 +1,102 @@
+# =========================
+# Java / JVM
+# =========================
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Build tools
+# =========================
+target/
+build/
+out/
+.gradle/
+
+# Keep Gradle Wrapper files versioned:
+# gradle/wrapper/gradle-wrapper.jar
+# gradle/wrapper/gradle-wrapper.properties
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+.factorypath
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Linux
+# =========================
+*~
+.directory
+
+# =========================
+# Environment files / secrets
+# =========================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Local tooling / temporary files
+# =========================
+.idea/httpRequests/
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# =========================
+# Coverage / test reports
+# =========================
+coverage/
+reports/
+
+# =========================
+# OS / generated metadata
+# =========================
+*.orig
+*.rej
